@@ -1,0 +1,7 @@
+comp = float(input("Digite o comprimento da parede: "))
+altura = float(input("Digite a altura da parede: "))
+
+result = int(comp * altura)
+
+print("Parede com total de: ", result, "metros quadrados")
+print("Necessario: " , result/2 , "Latas de tinta para pintar a parede")
